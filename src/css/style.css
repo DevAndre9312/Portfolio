@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #2c2f33;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 10px auto;
+    max-width: 95%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
