@@ -53,3 +53,14 @@ body {
     padding: 0 15px;
     color: #6c757d;
 }
+/* cards tecnologia */
+
+.full-width {
+    max-width: 95%;
+    margin: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
