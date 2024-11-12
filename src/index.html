@@ -13,14 +13,13 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
 
-  <title>Document</title>
+  <title>Portfolio</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,24 +27,19 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#tecnologias">Tecnologias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#Ferramentas">Ferramentas</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#softskills">Soft Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificados">Certificados</a>
             </li>
           </ul>
         </div>
@@ -53,6 +47,14 @@
     </nav>
   </header>
   <main>
+
+    <section>
+
+      <a href="https://wa.me/55982290117?text=Olá" class="whatsapp-button" target="_blank">
+        <img src="./image/logo whastapp.png" alt="WhatsApp" style="width: 50px; height: 50px;">
+      </a>
+
+    </section>
     <section class="container my-4">
       <div class="row align-items-center">
         <div class="col-md-4 text-center">
@@ -68,15 +70,21 @@
             <a href="https://github.com/DevAndre9312" target="_blank" class="me-3">
               <i class="bi bi-github"></i>
             </a>
-            <a href="https://instagram.com/username" target="_blank" class="me-3">
+            <a href="https://www.instagram.com/andredelima.g/" target="_blank" class="me-3">
               <i class="bi bi-instagram"></i>
             </a>
           </div>
-          <a href="curriculo.pdf" target="_blank" class="btn btn-primary">Abrir Currículo</a>
+          <a href="./image/Curriculo.pdf" target="_blank" class="btn btn-primary">Abrir Currículo</a>
         </div>
       </div>
 
       <div class="custom-divider"><span>Sobre Mim</span></div>
+
+      <div class="row align-items-center my-4">
+        <div class="col-md-12">
+          <p>Tenho 31 anos e minha trajetória começou com estudos em eletrônica, área que despertou meu interesse inicial pelas tecnologias. Em seguida, me aprofundei em logística, onde tive a oportunidade de estagiar em uma distribuidora, ganhando experiência prática em operações e processos logísticos. Posteriormente, fui trabalhar no setor administrativo de uma empresa de tecnologia, onde pela primeira vez tive contato direto com a programação. Esse contato foi transformador e me motivou a seguir um novo caminho, estudando desenvolvimento web e buscando me tornar um profissional da área.</p>
+        </div>
+      </div>
 
       <div class="row align-items-center my-4">
         <div class="col-md-3 text-center">
@@ -84,7 +92,7 @@
         </div>
         <div class="col-md-9">
           <h4>Logística</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis fugiat inventore minima, modi accusamus rem harum quas debitis dolor magni aliquam! Impedit eveniet qui consequuntur culpa repudiandae blanditiis molestias.</p>
+          <p>A logística envolve o planejamento, execução e gerenciamento do fluxo de bens e informações, desde a origem até o destino, garantindo que produtos e serviços cheguem ao cliente de forma eficiente. Essa área mudou minha visão sobre negócios, pois me ensinou a importância de processos otimizados, controle de recursos e a coordenação entre setores para alcançar resultados estratégicos.</p>
         </div>
       </div>
 
@@ -94,211 +102,272 @@
         </div>
         <div class="col-md-9">
           <h4>Programação</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laboriosam voluptate tempore voluptatum doloribus nesciunt deserunt autem hic. Provident qui nemo officia veritatis dolor hic repellendus quos aut dolore. Sequi.</p>
+          <p>Estou focado em aprender programação para otimizar tarefas do dia a dia, buscando automatizar processos repetitivos e tornar as rotinas mais eficientes. Além disso, vejo na programação uma oportunidade de transformar ideias em soluções práticas, criando ferramentas e sistemas que facilitem o trabalho e agreguem valor ao meu ambiente profissional e pessoal.</p>
         </div>
       </div>
     </section>
 
-    <section class="sectioncard full-width">
+    <section class="sectioncard full-width" id="tecnologias">
 
       <div class="custom-divider"><span>Tecnologias</span></div>
       <div class="row">
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="./image/html.jpg" class="card-img-top rounded-top" alt="Card image html" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="./image/html.jpg" class="card-img-top rounded-top" alt="Card image html"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 70%;"></div>
             </div>
           </div>
         </div>
-      
+
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="./image/css.jpg" class="card-img-top rounded-top" alt="Card image css" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="./image/css.jpg" class="card-img-top rounded-top" alt="Card image css"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 70%;"></div>
             </div>
           </div>
         </div>
-      
+
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="./image/js.jpg" class="card-img-top rounded-top" alt="Card image js" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="./image/js.jpg" class="card-img-top rounded-top" alt="Card image js"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 15%;"></div>
             </div>
           </div>
         </div>
-      
+
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="./image/logo git.jpg" class="card-img-top rounded-top" alt="Card image git" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="./image/logo git.jpg" class="card-img-top rounded-top" alt="Card image git"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 50%;"></div>
             </div>
           </div>
         </div>
-      
+
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="./image/python.jpg" class="card-img-top rounded-top" alt="Card image" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="./image/python.jpg" class="card-img-top rounded-top" alt="Card image"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 60%;"></div>
             </div>
           </div>
         </div>
-      
-        <div class="col-md-3 mb-4">
+
+        <!-- <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="..." class="card-img-top rounded-top" alt="Card image" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="..." class="card-img-top rounded-top" alt="Card image"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 20%;"></div>
             </div>
           </div>
         </div>
-      
-        <div class="col-md-3 mb-4">
+
+        <div class="col-md-3 mb-4"> 
           <div class="card h-100 position-relative">
-            <img src="..." class="card-img-top rounded-top" alt="Card image" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="..." class="card-img-top rounded-top" alt="Card image"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 20%;"></div>
             </div>
           </div>
         </div>
-      
+
         <div class="col-md-3 mb-4">
           <div class="card h-100 position-relative">
-            <img src="..." class="card-img-top rounded-top" alt="Card image" style="object-fit: cover; height: calc(100% - 10px);">
+            <img src="..." class="card-img-top rounded-top" alt="Card image"
+              style="object-fit: cover; height: calc(100% - 10px);">
             <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
               <div class="progress-bar bg-success" style="width: 20%;"></div>
             </div>
           </div>
         </div>
-      </div>
-</section>
+      </div> -->
+    </section>
 
-<section class="sectioncard full-width">
+    <section class="sectioncard full-width" id="Ferramentas">
 
-  <div class="custom-divider"><span>Ferramentas</span></div>
-  <div class="row">
-  <div class="col-md-3 mb-4">
-    <div class="card h-100 position-relative">
-      <img src="./image/github logo.jpg" class="card-img-top rounded-top" alt="Card image github" style="object-fit: cover; height: calc(100% - 10px);">
-      <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
-        <div class="progress-bar bg-success" style="width: 80%;"></div>
-      </div>
-    </div>
-  </div>
+      <div class="custom-divider"><span>Ferramentas</span></div>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 position-relative">
+            <img src="./image/github logo.jpg" class="card-img-top rounded-top" alt="Card image github"
+              style="object-fit: cover; height: calc(100% - 10px);">
+            <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
 
-  <div class="col-md-3 mb-4">
-    <div class="card h-100 position-relative">
-      <img src="./image/logo figma.jpg" class="card-img-top rounded-top" alt="Card image figma" style="object-fit: cover; height: calc(100% - 10px);">
-      <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
-        <div class="progress-bar bg-success" style="width: 60%;"></div>
-      </div>
-    </div>
-  </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 position-relative">
+            <img src="./image/logo figma.jpg" class="card-img-top rounded-top" alt="Card image figma"
+              style="object-fit: cover; height: calc(100% - 10px);">
+            <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
+              <div class="progress-bar bg-success" style="width: 60%;"></div>
+            </div>
+          </div>
+        </div>
 
-  <div class="col-md-3 mb-4">
-    <div class="card h-100 position-relative">
-      <img src="./image/vscode logo.jpg" class="card-img-top rounded-top" alt="Card image vscode" style="object-fit: cover; height: calc(100% - 10px);">
-      <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
-        <div class="progress-bar bg-success" style="width: 80%;"></div>
-      </div>
-    </div>
-  </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 position-relative">
+            <img src="./image/vscode logo.jpg" class="card-img-top rounded-top" alt="Card image vscode"
+              style="object-fit: cover; height: calc(100% - 10px);">
+            <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
+              <div class="progress-bar bg-success" style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
 
-  <div class="col-md-3 mb-4">
-    <div class="card h-100 position-relative">
-      <img src="..." class="card-img-top rounded-top" alt="Card image" style="object-fit: cover; height: calc(100% - 10px);">
-      <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
-        <div class="progress-bar bg-success" style="width: 20%;"></div>
-      </div>
-    </div>
-  </div>
-</section>
+        <!-- <div class="col-md-3 mb-4">
+          <div class="card h-100 position-relative">
+            <img src="..." class="card-img-top rounded-top" alt="Card image"
+              style="object-fit: cover; height: calc(100% - 10px);">
+            <div class="progress position-absolute bottom-0 start-0 end-0 rounded-bottom" style="height: 10px;">
+              <div class="progress-bar bg-success" style="width: 20%;"></div>
+            </div>
+          </div>
+        </div> -->
+    </section>
 
-<section>
-  <div class="custom-divider"><span>Soft Skills</span></div>
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Proatividade</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Trabalho em Equipe</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">75%</div>
-      </div>
-    </div>
-  </div>
+    <section class="full-width" id="softskills">
 
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Liderança</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-      </div>
-    </div>
-  </div>
+      <div class="custom-divider"><span>Soft Skills</span></div>
 
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Comunicação</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">65%</div>
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Proatividade</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Proatividade</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Trabalho em Equipe</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 75%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="row mb-3">
-    <div class="col-6 text-start">
-      <span>Criatividade</span>
-    </div>
-    <div class="col-6">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">50%</div>
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Liderança</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
 
-<footer class="bg-dark text-center text-white py-4">
-  <div class="container">
-    <div class="mb-3">
-      <a href="https://www.linkedin.com" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
-      <a href="https://www.github.com" class="text-white me-3" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-      <a href="https://www.instagram.com" class="text-white" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-    </div>
-    <div class="text-white-50">
-      &copy; 2024 Andre de Lima. Todos os direitos reservados.
-    </div>
-  </div>
-</footer>
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Comunicação</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">65%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Proatividade</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-6 text-start">
+          <span>Criatividade</span>
+        </div>
+        <div class="col-6">
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="full-width" id="certificados">
+
+      <div class="custom-divider"><span>Certificados</span></div>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+        style="width: 50%; height: 50%; margin: 0 auto;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="./image/AndreGonçalves-NDG Linux Unhatc-certificate.pdf" target="_blank">
+              <img src="./image/certificado linux.png" class="d-block w-100" alt="Certificado linux"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Certificado NDG Linux</h5>
+              <p>Cetificado de conclusao do curso NDG Linux, curso de introducao ao software.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+    <footer class="bg-dark text-center text-white py-4">
+      <div class="container">
+        <div class="mb-3">
+          <a href="https://www.linkedin.com" class="text-white me-3" target="_blank"><i
+              class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://github.com/DevAndre9312" class="text-white me-3" target="_blank"><i
+              class="fab fa-github fa-lg"></i></a>
+          <a href="https://www.instagram.com/andredelima.g/" class="text-white" target="_blank"><i
+              class="fab fa-instagram fa-lg"></i></a>
+        </div>
+        <div class="text-white-50">
+          &copy; 2024 Andre de Lima. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
   </main>
 </body>
 

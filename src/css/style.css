@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* sessao do perfil define cor de fundo da div, formato da imagem de perfil */
 .container {
     background-color: #2c2f33;
@@ -32,6 +33,7 @@ body {
     margin: 3rem 0;
     position: relative;
 }
+
 .custom-divider::before,
 .custom-divider::after {
     content: "";
@@ -42,18 +44,22 @@ body {
     position: absolute;
     top: 50%;
 }
+
 .custom-divider::before {
     left: 0;
 }
+
 .custom-divider::after {
     right: 0;
 }
+
 .custom-divider span {
     font-weight: bold;
     padding: 0 15px;
     color: #6c757d;
     font-size: 40px;
 }
+
 /* cards tecnologia */
 
 .full-width {
@@ -61,7 +67,7 @@ body {
     margin: auto;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
@@ -82,7 +88,23 @@ body {
     transform: scale(1.03);
 }
 
-.row.mb-3 .col-6.text-start span{
+.row.mb-3 .col-6.text-start span {
     color: #ffffff;
     font-weight: bold;
+}
+
+/* botao whastapp */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    transition: opacity 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    opacity: 0.8;
 }
